@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabNewMailMessage">
+        <group id="MyGroup"
+               label="Tools">
+          <button id="CKSWButton1"
+                        size="large"
+                        label="Stamp"
+                        screentip="Creates a stamp with name and date"
+                        onAction="OnButtonClick"
+                        imageMso="SmartArtEditIn2D" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
